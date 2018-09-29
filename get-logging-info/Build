@@ -1,0 +1,12 @@
+#!/bin/bash
+
+export PREFIX=/usr/local/programs
+
+export PKG_CONFIG_PATH=${PREFIX}/lib/pkgconfig
+
+make clean
+
+make
+
+make install
+

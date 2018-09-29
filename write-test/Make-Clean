@@ -1,0 +1,7 @@
+#!/bin/bash
+
+make -f make.mk clean
+
+make -f make-debug.mk clean
+
+

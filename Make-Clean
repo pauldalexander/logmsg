@@ -1,0 +1,14 @@
+#!/bin/bash
+
+###############################################################################
+#	Cleaning General/Programming/DPDK libraries and programs
+###############################################################################
+
+pushd Library && (./Make-Clean || true) && popd
+
+pushd get-logging-info && (make clean || true) && popd
+
+pushd test-logmsg && (./Make-Clean || true) && popd
+
+pushd write-test && (./Make-Clean || true) && popd
+

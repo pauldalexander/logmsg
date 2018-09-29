@@ -1,0 +1,15 @@
+#!/bin/bash
+
+###############################################################################
+#	Building General/Programming/logmsg libraries and programs
+###############################################################################
+
+pushd Library && (./Build || true) && popd
+
+pushd get-logging-info && (./Build || true) && popd
+
+pushd test-logmsg && (./Build || true) && popd
+
+pushd write-test && (./Build || true) && popd
+
+

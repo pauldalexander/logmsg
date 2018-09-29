@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#   Launch two instances of write-test
+
+rm -f ~/Temp/write-test.log
+
+gnome-terminal -e '../write-test/write-test ~/Temp/write-test.log 10000.0 0.001'
+
+gnome-terminal -e '../write-test/write-test ~/Temp/write-test.log 10000.0 0.001'
+
+
