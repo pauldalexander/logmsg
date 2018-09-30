@@ -1,0 +1,9 @@
+
+*.pc
+*.so
+*.o
+*.a
+get-logging-info/get-logging-info
+test-logmsg/test-logmsg*
+write-test/write-test*
+
